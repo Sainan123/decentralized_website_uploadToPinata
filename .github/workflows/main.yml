@@ -13,7 +13,7 @@ jobs:
 
     - name: Pin to Pinata
       uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
-        with:
+      with:
         pin-name: 'My personal site'
         path: './picture'
         pinata-api-key: ${{ secrets.PINATA_API_KEY }}
